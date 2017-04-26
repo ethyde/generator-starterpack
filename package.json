@@ -1,0 +1,29 @@
+{
+  "name": "generator-starterpack",
+  "version": "0.0.1",
+  "description": "Yeoman Generator for PMD-starterPack",
+  "keywords": [
+    "yeoman-generator",
+    "StarterPack-generator"
+  ],
+  "repository": "https://bitbucket.org/prismamediadigital/pmd-starterpack",
+  "main": "generators/app/index.js",
+  "files": [
+    "generators/app"
+  ],
+  "scripts": {
+    "dev": "./node_modules/.bin/babel generators/app/index.es6 --watch --out-file generators/app/index.js",
+    "prepublish": "./node_modules/.bin/babel generators/app/index.es6 --out-file generators/app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethyde",
+  "license": "ISC",
+  "dependencies": {
+    "yeoman-generator": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
