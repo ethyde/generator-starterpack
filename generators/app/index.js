@@ -14,6 +14,8 @@ var _yeomanGenerator2 = _interopRequireDefault(_yeomanGenerator);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+console.log("POUET");
+
 class StarterPackGenerator extends _yeomanGenerator2.default {
 
   constructor(args, opts) {
@@ -75,3 +77,4 @@ class StarterPackGenerator extends _yeomanGenerator2.default {
 }
 
 exports.default = StarterPackGenerator;
+module.exports = exports['default'];

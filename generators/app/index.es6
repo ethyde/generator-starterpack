@@ -2,6 +2,8 @@ import path from 'path'
 
 import Generator from 'yeoman-generator'
 
+console.log( "POUET" );
+
 class StarterPackGenerator extends Generator {
 
   constructor(args, opts) {
